@@ -54,6 +54,10 @@ body{
     font-weight: 400;
 }
 
+.logo{
+  image-rendering: pixelated;
+}
+
 .presentacion_enlaces_link{
     width: 378px;
     text-align: center;
@@ -65,4 +69,13 @@ body{
     color: #f6f6f6;
     font-family: 'Montserrat', sans-serif;
     border: 2px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.presentacion_enlaces_link:hover{
+    background-color: #272727;
+    cursor: pointer;
+    border: 2px solid #0000FF;
 }
