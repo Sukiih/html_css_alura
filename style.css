@@ -6,7 +6,6 @@
 }
 
 body{
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #f6f6f6;
@@ -23,7 +22,7 @@ body{
     justify-content: space-between;
 }
 
-.presentaacion_contenido{
+.presentacion_contenido{
     width: 615px;
     display: flex;
     flex-direction: column;
@@ -78,4 +77,14 @@ body{
     background-color: #272727;
     cursor: pointer;
     border: 2px solid #0000FF;
+}
+
+footer{
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
